@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullscreen_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bodyguardbackgroundtwo"
+    android:paddingLeft="16dp"
+    android:paddingTop="140dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainMenuActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPermissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOCATION PERMISSION"
+                android:layout_margin="10dp"/>
+
+
+            <Button
+                android:id="@+id/optionsButton"
+                android:layout_width="195dp"
+                android:layout_height="64dp"
+                android:shadowColor="#FAF9F9"
+                android:text="@string/options"
+                android:textColor="#F30606"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/mapButton"
+                android:layout_width="195dp"
+                android:layout_height="64dp"
+                android:onClick="toMap"
+                android:text="@string/map"
+                android:textColor="#F30606"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/crimeListButton"
+                android:layout_width="195dp"
+                android:layout_height="64dp"
+                android:onClick="toDatabase"
+                android:text="@string/crime_list"
+                android:textColor="#F30606"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="195dp"
+                android:layout_height="64dp"
+                android:onClick="toSettings"
+                android:text="@string/settings"
+                android:textColor="#F30606"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:layout_margin="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <!--<ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bodyguardbackgroundd" />-->
+
+
+
+
+</FrameLayout>

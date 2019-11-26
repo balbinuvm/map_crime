@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Body Guard</string>
+    <string name="title_activity_maps">Body Guard</string>
+    <string name="location_permission_denied"> Location Permission Denied</string>
+    <string name="permission_required_toast"> Permission required</string>
+    <string name="permission_rationale_location"> Permission rationale location</string>
+
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_main_menu_two">MainMenuTwoActivity</string>
+    <string name="options">Cities</string>
+    <string name="map">Map</string>
+    <string name="crime_list">Crime List</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="settingscategory">Settings View</string>
+    <string name="nightmode">Night Mode</string>
+    <string name="crimefilters">Select Desired Crime Filters</string>
+
+
+    <!-- Messages Preferences -->
+    <string name="crime_radius">Enter Desired Crime Radius(feet):</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="loading_crimes">Loading crimes...</string>
+    <string name="crime_type">Loading crimes...</string>
+    <string name="search_crimes_hint">Search Crimes...</string>
+    <string name="cd_crimes_list">Crimes list</string>
+    <string name="cd_crime_name">Type of the crime</string>
+    <string name="cd_search_crimes">Search crimes</string>
+    <string name="crime_csv">last6monthstrimmedbycrimenweapon.csv</string>
+</resources>

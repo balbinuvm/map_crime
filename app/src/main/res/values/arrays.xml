@@ -1,0 +1,24 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="crime_filters">
+        <item>Assault with deadly weapon(police officer)</item>
+        <item>Assault with deadly eapon(aggravated assault)</item>
+        <item>Burglary</item>
+        <item>Burglary(theft from vehicle)</item>
+        <item>Criminal Homicide</item>
+        <item>Kidnapping</item>
+        <item>Rape</item>
+        <item>Robbery</item>
+    </string-array>
+
+    <string-array name="crime_values">
+        <item>Assault with deadly weapon(police officer)</item>
+        <item>Assault with deadly eapon(aggravated assault)</item>
+        <item>Burglary</item>
+        <item>Burglary(theft from vehicle)</item>
+        <item>Criminal Homicide</item>
+        <item>Kidnapping</item>
+        <item>Rape</item>
+        <item>Robbery</item>
+    </string-array>
+</resources>
